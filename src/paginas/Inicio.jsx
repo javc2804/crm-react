@@ -18,7 +18,7 @@ const Inicio = () => {
   const handleEliminar = async (id) => {
     console.log("eliminando..", id);
     const confirmar = confirm("¿Deseas eliminar este cliente?");
-    console.log(confirmar);
+    console.log(confirmar);  
     if (confirmar) {
       try {
         const url = `http://localhost:4000/clientes/${id}`;
